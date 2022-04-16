@@ -21,6 +21,7 @@
 }
 
 .item:last-child{
+    flex: 1;
     justify-content: flex-end;
 }
 
@@ -56,6 +57,7 @@
 .listItem{
     margin: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .cart{
@@ -74,4 +76,6 @@
     justify-content: center;
     padding: 3px;
     display: flex;
+    font-weight: bold;
+    color: #d1411e;
 }
