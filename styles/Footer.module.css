@@ -7,14 +7,14 @@
 .item{
     flex: 1;
     position: relative;
-display: flex;
+    display: flex;
 }
+
 .item:last-child{
     flex: 2;
     padding: 50px;
     justify-content: space-between;
 }
-
 
 .card{
     flex :1;
@@ -32,4 +32,27 @@ display: flex;
 
 .motto{
     color: rgb(211,211,211);
+}
+
+@media screen and (max-width: 480px) {
+    .container{
+        height: auto;
+        text-align: center;
+    }
+
+    .item:first-child{
+        display: none;
+    }   
+
+    .item{
+        flex-direction: column;
+    }
+
+    .title{
+        font-size: 30px;
+    }
+
+    .text{
+        font-size: 20px;
+    }
 }
