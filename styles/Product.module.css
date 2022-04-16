@@ -1,0 +1,100 @@
+.container{
+    height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+}
+
+.left, .right{
+    flex: 1;
+}
+.left{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right{
+    padding: 20px;
+}
+
+.imgContainer{
+    width: 70%;
+    height: 70%;
+    position: relative;
+}
+
+.price{
+    color: #d1411e;
+    font-size: 24px;
+    font-weight: 400;
+    border-bottom: 1px solid #d1411e;
+}
+
+.sizes{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.size{
+    width: 30px;
+    cursor: pointer;
+    height: 30px;
+    position: relative;
+}
+
+.size:nth-child(2){
+    height: 40px;
+    width: 40px;
+}
+
+.size:last-child{
+    height: 50px;
+    width: 50px;
+}
+
+.number{
+    position: absolute;
+    top: -5px;
+    right: -20px;
+    background-color: teal;
+    color: white;
+    font-size: 12px;
+    padding: 0 5px;
+    border-radius: 10px;
+}
+
+.ingredients{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    margin-right:10px ;
+     font-size: 14px;
+     font-weight: 500;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+}
+
+.quantity{
+    width: 50px;
+    height: 30px;
+}
+
+.btn{
+    height: 30px;
+    margin-left: 10px;
+    background-color: #d1411e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+}
